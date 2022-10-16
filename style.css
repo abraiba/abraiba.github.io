@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url("OIP.jpg");
+    height: 110vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;  
+    background-attachment: fixed;
+}
+.Navbar{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.Navbar li{
+    display: inline-block;
+
+}
+.Navbar li a{
+    color: #fff;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-style: 14px;
+}
+.Navbar li a:hover{
+    background: #fff;
+    color: #333;
+    transition-duration: 0.5s;
+}
+
+.welcome-text{
+    color: #fff;
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 25% 20%;
+    text-align: center;
+
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+.welcome-text a{
+    color: #fff;
+}
+.welcome-text h1{
+    text-align: center;
+    font-size: 60px;
+  
+
+
+}
